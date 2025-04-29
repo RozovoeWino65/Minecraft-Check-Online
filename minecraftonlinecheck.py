@@ -482,7 +482,7 @@ async def handle_message(update: Update, context: CallbackContext):
 def main():
     """Запуск бота"""
     init_db()
-    application = Application.builder().token('7676723579:AAGP9Ch2joHN9T7R9NejfA10fa1qgxC9anI').build()
+    application = Application.builder().token('').build()
 
     # обработчик команд
     application.add_handler(CommandHandler("start", start))
